@@ -1,34 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import './style.css';
 
 function App() {
-  let rname = "John Doe";
-  let age = 30;
-
-  const user = {
-    name: rname,
-    age: age
-  };
-  const divStyle = {
-    color: 'blue',
-    backgroundColor: 'lightgray',
-    fontSize: 'larger',
-    padding: '3px',
-  };
-  return ( <div style={divStyle}>
-      Create Web & Mobile App <br />
-      with {user.name} <br />
-      Age is {user.age} <br />
-    </div>
-  );
 
   return (
-    <div>
-      Create Web & Mobile App <br />
-      with {rname} <br />
-      Age is {age} <br />
-    </div>
-  );
+    <>
+      <h2>DeveloperThai.com</h2>
+      <div className="title">React & React Native </div>
+    </>
+  )
 }
 
 export default App;

@@ -4,6 +4,7 @@ import Calendar from "./class-components";
 import { Calculator2 } from "./calculator";
 import { EventData } from "./event-data";
 import RefsFunc from './refs-func';
+import RefsArray from './refs-array'
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       <EventData/>
       <Calculator2 />
       <RefsFunc />
-
+      <RefsArray />
       <Footer />
     </>
   );

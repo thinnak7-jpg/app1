@@ -7,7 +7,7 @@ export default class Products extends Component {
     ['React Native', 650],
     ['Node.js', 450],
     ['MongoDB', 300],
-    ['Express.js', 660]
+    ['Express.js', 650]
   ]
   render() {
     return (

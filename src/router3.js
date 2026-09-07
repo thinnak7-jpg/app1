@@ -19,4 +19,13 @@ export default function Router3() {
         <NavLink to='/contact' className={({isActive})=> isActive?"active_menu":"menu"}>
           Contact Us</NavLink>
       </nav>
-      
+      <Routes style={{margin: '20px'}}>
+        <Route path="/" element={<Home/>} />
+        <Route path="/products" element={<Products/>} />
+        <Route path="/member" Component={Member} />
+        <Route path="/contact" element={<div style={{textAlign:'center'}}>Contact Page</div>} />
+        <Route path="/*" element={<div style={{textAlign:'center'}}>Error 404 Not Found</div>}/>
+      </Routes>
+    </BrowserRouter>
+  )
+}
